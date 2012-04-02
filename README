@@ -1,0 +1,10 @@
+yarest-client is yet another REST Client that implements the JAX-RS standard.
+Most JAX-RS frameworks (like CXF, RESTEasy, Jersey or Crest) provide libraries that create dynamic proxies from a service endpoint interface (SEI). The problem with these libraries is that is hard to make them running in an Android environment.
+The objective of this project is to make a similar library that works on Android or a standard java vm out of the box.
+
+At the moment it provides JSON messaging using the Gson library.
+The whole jsr-311 spec is not implemented yet, but it's usable for the most cases.
+
+This project is built using maven.
+
+
